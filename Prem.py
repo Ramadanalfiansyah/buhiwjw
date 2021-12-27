@@ -33,7 +33,7 @@ ___logo___ = ("""%s __  __ ____  _____
 """%(M,P,M,P,U,P,U,P))
 # Proxy
 try:
-    ___res = requests.get('https://raw.githubusercontent.com/RozhakXD/Premium/main/Data/proxy.txt').text
+    ___res = requests.get('https://raw.githubusercontent.com/Ramadanalfiansyah/buhiwjw/main/Data/proxy.txt').text
     open('Data/proxy.txt','w').write(___res)
 except:
     exit("%s[%s!%s]%s Proxy Error"%(P,M,P,M))
